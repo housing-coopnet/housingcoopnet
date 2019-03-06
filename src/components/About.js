@@ -144,7 +144,7 @@ class About extends Component {
                                                                      <div>
                                                                      <p>
 
-                                                                      Jinsu believes that democratizing technology can empower grassroots development around the world. His passion for computing and web development has been shaped by his experiences growing up in Kenya and learning programming in the Bay Area. Beyond his studies at Cal, Jinsu has worked as an editor for the United Youth Journalists and serves as Vice President at Codeology, a student organization dedicated to fostering mentorship and self-exploration among computer scientists. When he isn’t building out a new web layout, Jinsu (fun fact)
+                                                                     Jinsu believes that democratizing technology can empower grassroots development around the world. His passion for computing and web development has been shaped by his experiences growing up in Kenya and Wales and eventually learning how to code in the Bay Area. Beyond his studies at Cal, Jinsu has worked as an editor for the United Youth Journalists and serves as Vice President at Codeology, a student organization dedicated to fostering mentorship and self-exploration among computer scientists. When he isn’t building out a new web layout, Jinsu is out shooting landscapes or dreaming of “tiny homes”.
 
                                                                       </p>
 

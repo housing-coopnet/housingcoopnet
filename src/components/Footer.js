@@ -26,9 +26,6 @@ class Footer extends Component {
       <li>
         <a href="#index">HOW IT WORKS</a>
       </li>
-      <li>
-        <a href="#index">RISKS</a>
-      </li>
     </ul>
   </Col>
   <Col>

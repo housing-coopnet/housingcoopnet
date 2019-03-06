@@ -1,30 +1,36 @@
 import React, { Component } from 'react';
 import '../stylesheets/App.css';
-import { ProgressBar, Image, Container, Col, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel, Table, Jumbotron } from 'react-bootstrap';
+import {Popover, OverlayTrigger, ProgressBar, Image, Container, Col, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel, Table, Jumbotron } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom'
 import Footer from "../components/Footer.js"
 import CarouselSlider from "../components/CarouselSlider.js"
 import NavHeader from "../components/NavHeader.js"
 
+const popover = (
+  <Popover id="popover-basic" title="Member profiles are coming soon!">
+   We are in the process of implementing a fully scalable and secure member registration system! Stay tuned.
+  </Popover>
+);
+
 var projectTiles = [
   {
-    "title": "Project 1",
-    "description": "This was our first ever project",
+    "title": "Oakland City Residence",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis eros in euismod viverra. Sed vitae pulvinar nulla, sollicitudin euismod sem. ",
     "progress": 50,
     "source": '../images/tile1.jpg',
     "projectNumber": 1,
   },
   {
-    "title": "Project 2",
-    "description": "This was our second ever project",
+    "title": "Berkeley Student Cooperative",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis eros in euismod viverra. Sed vitae pulvinar nulla, sollicitudin euismod sem. ",
     "progress": 2,
     "source": '../images/tile2.jpg',
     "projectNumber": 2,
 
   },
   {
-    "title": "Project 3",
-    "description": "This was our third ever project",
+    "title": "Diablo Valley Affordable Homes",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis eros in euismod viverra. Sed vitae pulvinar nulla, sollicitudin euismod sem. ",
     "progress": 10,
     "source": '../images/tile3.jpg',
     "projectNumber": 3,
@@ -32,8 +38,8 @@ var projectTiles = [
 
   },
   {
-    "title": "Project 4",
-    "description": "This was our fourth ever project",
+    "title": "SF Roofing Act",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis eros in euismod viverra. Sed vitae pulvinar nulla, sollicitudin euismod sem. ",
     "progress": 20,
     "source": '../images/tile4.jpg',
     "projectNumber": 4,
@@ -85,7 +91,11 @@ class Home extends Component {
             <Carousel.Caption>
               <h3>Take an Interest</h3>
               <p>Join us</p>
-              <Button className="carouselButton" href="/signup">SIGN UP</Button>
+              <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+              <Button className="carouselButton">SIGN UP</Button>
+            </OverlayTrigger>
+
+
             </Carousel.Caption>
           </Carousel.Item>
 

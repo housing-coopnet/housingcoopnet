@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import '../stylesheets/App.css';
-import { ProgressBar, Container, Col, Row, Image, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel, Table, Jumbotron } from 'react-bootstrap';
+import { Popover, OverlayTrigger, ProgressBar, Container, Col, Row, Image, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel, Table, Jumbotron } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom'
+
+const popover = (
+  <Popover id="popover-basic" title="Member profiles are coming soon!">
+   We are in the process of implementing a fully scalable and secure member registration system! Stay tuned.
+  </Popover>
+);
+
 class NavHeader extends Component {
   render() {
     return (
@@ -19,8 +26,10 @@ class NavHeader extends Component {
               <NavLink to="/about"><NavDropdown.Item href="#action/3.3">Our Model</NavDropdown.Item></NavLink>
               <NavLink to="/about"><NavDropdown.Item href="#action/3.4">Our Team</NavDropdown.Item></NavLink>
             </NavDropdown></Button>
-            <NavLink to="/cooptalk"><Button className ="navButton"  variant="light">CoopTalk</Button></NavLink>
-            <NavLink to="/signup"><Button className ="navButton"  variant="light">Sign Up</Button></NavLink>
+            <NavLink to="/cooptalk"><Button className="navButton" variant="light">CoopTalk</Button></NavLink>
+            <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+            <NavLink to="/"><Button className="navButton" variant="light">Sign Up</Button></NavLink>
+            </OverlayTrigger>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

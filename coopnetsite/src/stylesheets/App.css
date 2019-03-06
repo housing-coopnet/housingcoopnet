@@ -1,0 +1,388 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mr-auto {
+  float: right;
+  letter-spacing: 3px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.homeNav {
+  float: left;
+  font-family: 'Do Hyeon', sans-serif;
+  letter-spacing: 3px;
+  vertical-align: middle;
+}
+
+.navButton {
+  /* hard-coded vertical align for nav buttons */
+  padding-top: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.headerCollapse {
+  float: right;
+}
+
+Button {
+  font-family: 'Do Hyeon', sans-serif;
+  float: "right";
+  letter-spacing: 3px;
+  color: #3b3b3b;
+  font-size: 100px;
+}
+
+.carousel-caption {
+  bottom: 50%;
+  font-size: 60px;
+  font-weight: 200;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 5px;
+  display: initial;
+  background-color: #3b3b3b;
+  width: fit-content;
+  height: 200px;
+  border-radius: 20px 50px;
+}
+
+.carouselButton {
+  position: relative;
+  right: auto;
+  z-index: 10;
+  top: -30px;
+  width: fit-content;
+  overflow: hidden;
+  color: #fff;
+  letter-spacing: 6px;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}/*Div Attributes*/
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky; top: 200px;
+    padding-left: 50px;
+  }
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+
+
+.column {
+  -ms-flex: 20%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.tile img {
+  vertical-align: left;
+}
+
+
+.tile {
+  -ms-flex: 20%;
+  flex: 20%;
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border-radius: 20px 20px;
+}
+
+.tileRow {
+  padding: 0;
+}
+
+.tileTable{
+  padding: 0;
+}
+
+.tile-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: aquamarine;
+  
+}
+
+.tile:hover .tile-inner {
+  transform: rotateY(180deg);
+}
+
+.tile-front, .tile-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  
+}
+
+
+.tile-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+  
+}
+
+.tile-back {
+  background-color: #3b3b3b;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.introJumboContainer {
+  padding-top:50px;
+}
+
+.introJumbo {
+  background-color: transparent;
+  text-align: left;
+  align-content: center;
+}
+
+.introJumboButton {
+  align-content: center;
+  vertical-align: center;
+  top: 50%;
+}
+
+.footer {
+  background-color: #B1B695;
+  color: #f7f7f7;
+  width: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.footerJumbo {
+  background-color: #B1B695;
+  color: #f7f7f7;
+  padding: 0;
+  padding-top: 50px
+}
+
+.footerLinks {
+  list-style-type: none;
+  padding: 0;
+}
+.footerLinks a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+.footerLinks a:hover{
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.tileContainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tileRow {
+  padding-bottom: 50px;
+}
+
+.projectProgress {
+  background-color: rgb(93, 154, 235);
+}
+
+.navBreaker {
+  width: 100%;
+}
+
+.signupTabs{
+  padding-top: 90px;
+  padding-bottom: 300px;
+}
+
+.signupTab {
+  background-color: #3b3b3b;
+}
+
+.signupTabLink {
+  color: #f7f7f7;
+}
+.signupTab:hover{
+  color: #77D7F9;
+}
+
+.projectDashboard {
+  font-family: 'Do Hyeon', sans-serif;
+}
+.projectSummary {
+  padding-right: 100px;;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: transparent;
+  text-align: left;
+  color: #3b3b3b;
+  padding-bottom: 10px;
+}
+
+.projectJumbo {
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: transparent;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.projectTitle {
+font-family: 'Do Hyeon', sans-serif;
+letter-spacing: 8px;
+background-color: transparent;
+padding-bottom: 0px;
+text-align: center;
+position: -webkit-sticky;
+position: sticky;
+}
+
+
+.projectTitle p {
+  color: #3b3b3b;
+  letter-spacing: 3px;
+  }
+
+.headerCollapse a {
+  vertical-align: middle;
+}
+
+.projectSummary h1 {
+  padding-top: 40px;
+  letter-spacing: 6px;
+  color: #196d58;
+}
+
+.projectSummary h2 {
+  letter-spacing: 6px;
+}
+.projectSummary h3 {
+  letter-spacing: 6px;
+}
+.projectSummary p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.projectActions {
+  align-content: center;
+  line-height: 10px;
+}
+
+.actionButtons {
+  padding-top: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.actionButtons p {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+}
+
+.projectTabs {
+  align-content: center;
+  position: -webkit-sticky;
+}
+
+.projectTab {
+  letter-spacing: 3px;
+  background-color: #f8f8f1;
+}
+
+.projectContent {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f8f8f1;
+
+}
+
+.projectContent h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 8px;
+  color: #3b3b33;
+}
+.projectContent p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  color: #3b3b33;
+  padding-top: 10px;
+}
+
+.socialButtons {
+  height: 40px;
+}
+.projectJumboImage {
+  border-radius: 50px 20px;}
+
+  .tile-front img{
+    width: 100%;
+  }
+ul, li{
+list-style: none;
+}

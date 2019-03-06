@@ -92,7 +92,7 @@ class Home extends Component {
               <h3>Take an Interest</h3>
               <p>Join us</p>
               <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-              <Button className="carouselButton">SIGN UP</Button>
+              <NavLink to="/"><Button className="carouselButton">SIGN UP</Button></NavLink>
             </OverlayTrigger>
 
 
@@ -109,7 +109,7 @@ class Home extends Component {
             <Carousel.Caption>
               <h3>We're on a mission</h3>
               <p>Put roofs over people's heads.</p>
-              <Button className="carouselButton" href="/about">ABOUT US</Button>
+              <NavLink to="/about"><Button className="carouselButton">ABOUT US</Button></NavLink>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -123,7 +123,7 @@ class Home extends Component {
             <Carousel.Caption>
               <h3>Certified Partners</h3>
               <p>The best intentions</p>
-              <Button className="carouselButton" href="/project">PROJECTS</Button>
+              <NavLink to="/project"><Button className="carouselButton" >PROJECTS</Button></NavLink>
             </Carousel.Caption>
           </Carousel.Item>
 

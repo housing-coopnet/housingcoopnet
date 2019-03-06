@@ -9,7 +9,7 @@ import FollowProject from "./FollowProject";
 function ProjectJumbo(props) {
     return (
         <Jumbotron fluid className="projectJumbo">
-            <Image fluid className = "projectJumboImage"src="https://cdn.dribbble.com/users/94666/screenshots/3256047/brookliv_illo_01b_dribbble.png" />
+            <Image fluid className = "projectJumboImage" src={require("../images/projectDash.png")} />
         </Jumbotron>
     );
 }

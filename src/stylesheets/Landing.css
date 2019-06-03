@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+     font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     padding: 0;
+     margin: 0;
+}
+
+*:focus {
+     outline: none;
+ }
+
+body {
+     margin: 0 0 0 0;
+     padding: 0 0 0 0;
+}
+
+.container-fluid {
+     margin: 0 0 0 0;
+     padding: 0 0 0 0;
+}
+
+.titleContainer {
+     text-align: center;
+     align-content: center;
+     vertical-align: middle;
+     padding: 0 0 1;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.titleContainer h1{
+     letter-spacing: 30px;
+     font-size: 4vw;
+     color: #3d3d3d;
+     font-family: 'Lato', sans-serif;
+     margin: 0 auto;
+     padding-bottom: 20px;
+     padding-top: 60px;
+     font-weight: 700;
+}
+
+.blurbContainer {
+     text-align: center;
+     vertical-align: middle;
+}
+
+.blurbContainer p {
+     padding-top: 40px;
+     display: inline;
+     margin: 0 auto;
+     font-size: 2.5vw;
+     letter-spacing: 3px;
+}
+
+.jumbo{
+     margin: 0 auto;
+     max-width: 70%;
+     min-width: 300px;
+}
+
+.horizontalBar {
+     background-color: #f7f7f7;
+     text-align: center;
+     vertical-align: middle;
+}
+
+.horizontalBar h1{
+     color: #3d3d3d;
+     font-size: 2vw;
+     display: inline-block;
+     margin: 66px auto;
+     letter-spacing: 5px;
+}
+
+.infoContainer{
+     background-color: #5EBDD3;
+}
+
+.grabber {
+     margin: 0 0 0 0;
+     padding: 0 0 0 0;
+}
+
+.row {
+     padding: 0 0 1 0;
+     margin: 0 0 0 0;
+}
+.grabber h1{
+     margin: 0 auto;
+     letter-spacing: 10px;
+     color: #f7f7f7;
+     font-size: 2.5vw;
+     font-weight: 700;
+     text-align: center;
+}
+
+.submitButton {
+     margin: 0 auto;
+     margin-top: 100px;
+     font-family: 'Lato', sans-serif;
+     font-size: 150%;
+     display: block;
+     background-color: #F6E5AB;
+     color: #3d3d3d;
+     border-color: #3d3d3d;
+     border-width: 3px;
+     border-radius: 40 40 40 40;
+     margin-bottom: 40px;
+     min-width: 200px;
+     min-height: 50px;
+}
+
+.submitButton:hover {
+     background-color: rgb(233, 138, 84);
+     border-color: #3d3d3d;
+     color: #3d3d3d;
+}
+
+.tile img {
+     vertical-align: left;
+   }
+   
+   
+   .tile {
+     -ms-flex: 20%;
+     flex: 20%;
+     background-color: transparent;
+     width: 300px;
+     height: 300px;
+     perspective: 1000px;
+     border-radius: 40px 40px;
+     border-color: #3d3d3d;
+     border-style: solid;
+     border-width: 5px;
+     margin: 0 auto;
+     margin-left: 25px;
+   }
+   
+   .tileRow {
+     padding: 0;
+   }
+   
+   .tileTable{
+     padding: 0;
+   }
+   
+   .tile-inner {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     transition: transform 0.6s;
+     transform-style: preserve-3d;
+     background-color: aquamarine;
+     
+   }
+   
+   .tile:hover .tile-inner {
+     transform: rotateY(180deg);
+   }
+   
+   .tile-front, .tile-back {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     backface-visibility: hidden;
+     
+   }
+   
+   
+   .tile-front {
+     background-color: #bbb;
+     color: black;
+     z-index: 2;
+     
+   }
+   
+   .tile-back {
+     background-color: #3b3b3b;
+     color: white;
+     transform: rotateY(180deg);
+     z-index: 1;
+   }
+
+   .tile-back h1{
+        font-size: 35px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Lato', sans-serif;
+
+   }
+
+   .tile-back p{
+     font-family: 'Lato', sans-serif;
+     margin-left: 20px;
+     margin-right: 20px;
+     text-align: center;
+   }
+
+   .tileContainer{
+        padding-top: 75px;
+        padding-bottom: 50px;
+   }
+
+   .emailContainer {
+        vertical-align: middle; 
+   }
+
+   .emailContainer input {
+     margin: 0 auto;
+     margin-top: 100px;
+     font-family: 'Lato', sans-serif;
+     font-size: 150%;
+     display: block;
+     background-color: rgb(250, 241, 213);
+     color: #3d3d3d;
+     border-color: #3d3d3d;
+     border-width: 4px;
+     border-radius: 40 40 40 40;
+     margin-bottom: 40px;
+     text-align: center;
+     border-style: solid;
+     min-width: 200px;
+     min-height: 50px;
+   }
+
+   .formContainer {
+        margin-left: 30%;
+        margin-right: 30%;
+   }

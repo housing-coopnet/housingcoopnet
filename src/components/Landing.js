@@ -81,10 +81,10 @@ class Landing extends Component {
                     </Row>
                     <Container id = "infoContainer" style={{ height:  "100%"}} className="infoContainer" fluid>
                          <Row fluid className="tileContainer">
-                              <Col sm style={{ margin: "0 50px", paddingTop: 40 }}> <Image className="tile" src={require("../images/tile1.jpg")} rounded /></Col>
-                              <Col sm style={{ margin: "0 50px", paddingTop: 40 }}> <Image className="tile" src={require("../images/tile2.jpg")} rounded /></Col>
-                              <Col sm style={{ margin: "0 50px", paddingTop: 40 }}> <Image className="tile" src={require("../images/tile3.jpg")} rounded /></Col>
-                              <Col sm style={{ margin: "0 50px", paddingTop: 40 }}> <Image className="tile" src={require("../images/tile4.jpg")} rounded /></Col>
+                              <Col xs style={{paddingTop: 40 }}> <Image className="tile" src={require("../images/tile1.jpg")} rounded /></Col>
+                              <Col xs style={{paddingTop: 40 }}> <Image className="tile" src={require("../images/tile2.jpg")} rounded /></Col>
+                              <Col xs style={{paddingTop: 40 }}> <Image className="tile" src={require("../images/tile3.jpg")} rounded /></Col>
+                              <Col xs style={{paddingTop: 40 }}> <Image className="tile" src={require("../images/tile4.jpg")} rounded /></Col>
                               {/* {projectTiles.map((tile) => <ProjectTile tile={tile} />)} */}
                          </Row>
                          <Row className="grabber">

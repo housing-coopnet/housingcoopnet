@@ -137,9 +137,9 @@ class About extends Component {
                                 </Col>
 
                                 <Col xs={8} md={6} >
-                                <img src={require('../images/jinsu.jpg')} roundedCircle width="250px"/>
+                                <img src={require('../images/jinsu.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/jinsue/"> Jinsu Elhance </a>  </h3>
-                                <h4> Full-Stack Developer </h4>
+                                <h4> Web Development </h4>
 
                                                                      <div>
                                                                      <p>
@@ -168,12 +168,12 @@ class About extends Component {
 
                                 <img src={require('../images/cara.jpeg')} roundedCircle width="250px"/>
                                 <h3> <a href="https://www.linkedin.com/in/carawolfe/">  Cara Wolfe </a></h3>
-                                    <h4> Full-Stack Developer </h4>
+                                    <h4> Web Development </h4>
 
                                                                      <div>
                                                                      <p>
 
-                                                                     Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations as the President of Engineering for Kids, the Mentorship Coordinator for the Association of Women in Electrical Engineering & Computer Science, and the Lead Organizer of CS KickStart. She is also conducting research on different cultural diasporas. When she isn’t coding or planning club events, Cara enjoys exploring “hidden places” in the Bay Area. 
+                                                                     Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations as the President of Engineering for Kids, the Mentorship Coordinator for the Association of Women in Electrical Engineering & Computer Science, and the Lead Organizer of CS KickStart. She is also conducting research on different cultural diasporas.
                                                                       </p>
 
                                                                      <h5>

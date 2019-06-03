@@ -11,7 +11,30 @@ const popover = (
    We are in the process of implementing a fully scalable and secure member registration system! Stay tuned.
   </Popover>
 );
-
+var carouselSlides = [
+     {
+       "key" : 1,
+       "header" : "Slide 1",
+       "text" : "Take an interest",
+       "button" : "Sign up",
+       "image" : "../images/carousel1.jpg",
+     },
+     {
+       "key" : 2,
+       "header" : "Slide 2",
+       "text" : "Build a portfolio",
+       "button" : "Invest",
+       "image" : "../images/carousel2.jpg",
+     },
+     {
+       "key" : 3,
+       "header" : "Slide 3",
+       "text" : "Look at our projects",
+       "button" : "Explore",
+       "image" : "../images/carousel3.jpg",
+     }
+   ]
+ 
 var projectTiles = [
   {
     "title": "Oakland City Residence",
@@ -79,7 +102,7 @@ class Home extends Component {
     return (
       <div className="App">
         <NavHeader />
-
+{/* 
         <Carousel>
           <Carousel.Item>
             <img
@@ -127,9 +150,9 @@ class Home extends Component {
             </Carousel.Caption>
           </Carousel.Item>
 
-        </Carousel>
+        </Carousel> */}
 
-        {/* <CarouselSlider/> */}
+        <CarouselSlider slides = {carouselSlides}/>
 
         <Container className="introJumboContainer">
           <Row>

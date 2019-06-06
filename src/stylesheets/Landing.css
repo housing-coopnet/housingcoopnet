@@ -16,6 +16,10 @@ body {
      padding: 0 0 0 0;
 }
 
+.fp-tableCell {
+     
+}
+
 .col{
      margin: 0 auto;
      justify-content: center;
@@ -31,7 +35,7 @@ body {
      text-align: center;
      align-content: center;
      vertical-align: middle;
-     padding: 0 0 1;
+     padding: 0 0 1 0;
      margin-top: 50px;
      margin-bottom: 50px;
 }
@@ -64,10 +68,14 @@ body {
      margin: 0 auto;
      max-width: 70%;
 }
+
 .horizontalBar {
      background-color: #f7f7f7;
      text-align: center;
      vertical-align: middle;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
 }
 
 .horizontalBar h1{
@@ -91,31 +99,39 @@ body {
      padding: 0 0 1 0;
      margin: 0 0 0 0;
 }
+
+.div row {
+     padding: 0 0 1 0;
+}
 .grabber h1{
      margin: 0 auto;
-     letter-spacing: 10px;
+     letter-spacing: 6px;
      color: #f7f7f7;
-     font-size: 2.5vw;
+     font-size: 2.5vh;
      font-weight: 700;
      text-align: center;
 }
 
-
 .tile img {
      vertical-align: center;
+     /* min-width: 100%;
+     min-height: 200px;
+     padding-top: 100%; */
+     height: 20vw;
+     width: 20vw;
+
    }
    
    .tile {
      background-color: transparent;
-     width: 300px;
-     height: 300px;
-     perspective: 1000px;
      border-radius: 40px 40px;
      border-color: #3d3d3d;
      border-style: solid;
      border-width: 5px;
      margin: 0 25px;
      align-self: center;
+     height: 20vw;
+     width: 20vw;
      /* margin-left: 25px; */
    }
    
@@ -127,17 +143,21 @@ body {
 
    
    .formContainer {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 4%;
+        margin-right: 4%;
+        /* margin-top: 2%;
+        margin-bottom: 2%; */
+        /* max-height: 80px; */
 }
 
    .emailContainer {
         vertical-align: middle; 
+        margin-bottom: 40px;
+        margin: 11px auto;
    }
 
    .emailContainer input {
      align-self: center;
-     /* margin: 0 auto; */
      margin-top: 100px;
      font-family: 'Lato', sans-serif;
      font-size: 150%;
@@ -152,13 +172,17 @@ body {
      border-style: solid;
      min-width: 100px;
      min-height: 50px;
-     margin: 60px auto;
+     margin: 20px auto;
+}
+
+.emailContainer input:disabled {
+     background-color: rgb(200, 192, 165);
 }
 
 
 .submitButton {
      /* margin: 0 auto; */
-     margin-top: 100px;
+     margin-top: 30px;
      font-family: 'Lato', sans-serif;
      font-size: 150%;
      display: block;
@@ -170,10 +194,16 @@ body {
      margin-bottom: 40px;
      min-width: 200px;
      min-height: 50px;
-     margin: 60px auto;
+     margin: 30px auto;
 }
 
 .submitButton:hover {
+     background-color: rgb(233, 138, 84);
+     border-color: #3d3d3d;
+     color: #3d3d3d;
+}
+
+.submitButton:disabled {
      background-color: rgb(233, 138, 84);
      border-color: #3d3d3d;
      color: #3d3d3d;

@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+ngrok.exe
+packageold.json
 
 # testing
 /coverage

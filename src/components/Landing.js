@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../stylesheets/Landing.css';
+import NavHeader from "./NavHeader"
 import { Input, Image, Container, Col, Row, Button } from 'react-bootstrap';
 import firebase from "../config/fbConfig"
 import ReactFullpage from '@fullpage/react-fullpage';
@@ -68,13 +69,14 @@ class Landing extends Component {
 
      render() {
           return (
+               <Container fluid noGutters={true}>
+               <NavHeader />
                <ReactFullpage
                     render={({ state, fullpageApi }) => {
                          return (
                               <ReactFullpage.Wrapper>
-                                   {/* <Container fluid noGutters={true}> */}
                                         <Container fluid className = "section"> 
-                                        <Row style={{ paddingTop: "3%", paddingBottom: "3%", paddingLeft: "3%", paddingRight: "3%", height: window.innerHeight - 173 }}>
+                                        <Row style={{ paddingTop: "6%", paddingBottom: "3%", paddingLeft: "3%", paddingRight: "3%", height: window.innerHeight - 173 }}>
                                              <Col lg>
                                                   <Row className="titleContainer">
                                                        <h1> COOPNET </h1>
@@ -93,7 +95,7 @@ class Landing extends Component {
                                    </Container>
                                    <Container fluid className = "section">
                                         <Container id="infoContainer" style={{ height: "100%" }} className="infoContainer" fluid>
-                                             <Row  style={{ paddingTop: "3%", paddingBottom: "3%"}} fluid className="tileContainer">
+                                             <Row  style={{ paddingTop: "12%", paddingBottom: "3%"}} fluid className="tileContainer">
                                                   <Col xs={6} md style={{ paddingTop: 40 }}> <Image fluid className="tile" src={require("../images/tile1.jpg")} rounded /></Col>
                                                   <Col xs={6} md style={{ paddingTop: 40 }}> <Image fluid className="tile" src={require("../images/tile2.jpg")} rounded /></Col>
                                                   <Col xs={6} md style={{ paddingTop: 40 }}> <Image fluid className="tile" src={require("../images/tile3.jpg")} rounded /></Col>
@@ -111,13 +113,14 @@ class Landing extends Component {
                                              </Row>
                                         </Container>
                                    </Container>
-                                   {/* </Container> */}
+                                   
                               </ReactFullpage.Wrapper>
                          );
                     }}
-               />
+                    />
+                    </Container>
           );
-     }
-}
-
+               }
+          }
+          
 export default Landing;

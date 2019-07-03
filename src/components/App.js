@@ -21,17 +21,26 @@ export default class App extends Component {
     return (
       <Router>
         <div>
-          <Route path="/" exact component={Home} />
-          {/* <Route path = "/home" exact component={Home} /> */}
-          {/* <Route path="/signup" component={Signup} /> */}
-          <Route path="/about" component={About} />
-          {/* <Route path="/cooptalk" component={CoopTalk} />
-          <Route path="/project" component={ProjectDashboard} /> */}
-          <Route path="/mission" component={Mission} />
-          <Route path="/vision" component={Vision} />
-          <Route path="/team" component={Team} />
-          <Route path="/model" component={Model} />
-          <Route path="/history" component={History} />
+                   <Route path="/" exact component={Home} />
+                   <Route path="/?" component={Home} />
+
+                   <Route path="/about" component={About} />
+                   <Route path="/about?" component={Home} />
+
+                   <Route path="/mission" component={Mission} />
+                   <Route path="/mission?" component={Mission} />
+
+                   <Route path="/vision" component={Vision} />
+                   <Route path="/vision?" component={Vision} />
+
+                   <Route path="/team" component={Team} />
+                   <Route path="/team?" component={Team} />
+
+                   <Route path="/model" component={Model} />
+                   <Route path="/model?" component={Model} />
+
+                   <Route path="/history" component={History} />
+                   <Route path="/history?" component={History} />
         </div>
       </Router>
     );

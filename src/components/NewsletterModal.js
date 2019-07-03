@@ -51,6 +51,7 @@ export default class NewsletterModal extends Component {
                last_name: form.formLast.value
                },
                () => {
+                    console.log(this.state)
                     if (this.validEmail()) {
                          // Create entry in userData triggers email send through firebase function firestoreEmail via sendgrid
                          this.userData.add({ email: this.state.email, first_name: this.state.first_name, last_name: this.state.last_name })

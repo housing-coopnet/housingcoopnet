@@ -31,7 +31,7 @@ class NavHeader extends Component {
                                    <NavDropdown.Item><NavLink to="/vision">VISION</NavLink></NavDropdown.Item>
                                    <NavDropdown.Item><NavLink to="/model">MODEL</NavLink></NavDropdown.Item>
                                    <NavDropdown.Item><NavLink to="/history">HISTORY</NavLink></NavDropdown.Item>
-                                   <NavDropdown.Item><NavLink to="/about#team">ABOUT US</NavLink></NavDropdown.Item>
+                                   <NavDropdown.Item><NavLink to="/about#team">TEAM</NavLink></NavDropdown.Item>
                               </NavDropdown>
                          </Nav>
                          <Nav className="navButton">

@@ -1,0 +1,52 @@
+.carousel.slide.fp-slide.fp-table.active {
+     display: block;
+}
+
+.carouselImage {
+     object-fit: cover;
+     max-width: 2000px;
+     position: relative;
+     object-position: 0 0;
+}
+
+.carouselCaption {
+     float:left;
+     position: absolute;
+     left: -5px;
+     width: fit-content;
+     max-width: 400px;
+     max-height: 300px;
+     top: -6px;
+     z-index: 4;
+     display: block;
+     background-color: #5EBDD3;
+     border-radius: 0 0 40px 0;
+     border-style: solid;
+     border-color: #f7f7f7;
+     border-width: 5px;
+     align-items: center;
+     text-align: center;
+     color: #f7f7f7;
+     letter-spacing: 3px;
+     padding-top: 10px;
+     padding-bottom: 6px;
+}
+
+.carouselCaption h1{
+     font-size: 24px;
+}
+
+.carouselButton {
+     z-index: 10;
+     width: fit-content;
+     background-color: #134E5B;
+     border-style: none;
+     margin: 0 auto;
+     align-self: center;
+     letter-spacing: 6px;
+     margin-bottom: 10px;
+   }
+
+.carouselButton:hover {
+     background-color:rgb(9, 47, 56);
+}

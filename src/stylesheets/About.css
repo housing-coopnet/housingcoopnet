@@ -1,0 +1,143 @@
+.aboutContainer {
+     text-align: center;
+     /* display: inline-; */
+     vertical-align: middle;
+     height: 100%;
+     padding-bottom: 50px;
+}
+
+/* .aboutContainer p {
+    color: rgb(15, 43, 49);
+     padding-top: 40px;
+     margin: 0 auto;
+     font-size: 1vh;
+     letter-spacing: 3px;
+} */
+
+/* .aboutContainer h1 {
+     color: rgb(15, 43, 49);
+     padding-top: 40px;
+     margin: 0 auto;
+     font-size: 4vh;
+     letter-spacing: 3px;
+     padding-bottom: 20px;
+} */
+
+.blurbButton {
+     display: block;
+     z-index: 10;
+     width: fit-content;
+     background-color: #134E5B;
+     border-style: none;
+     margin: 0 auto;
+     align-self: center;
+     letter-spacing: 6px;
+     margin-top: 30px;
+     font-size: 3vw;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   
+   .blurbButton:hover {
+     background-color:rgb(9, 47, 56);
+   }
+   
+.blurbImage {
+     display: table;
+     vertical-align: middle;
+     margin: 0 auto;
+     max-width: 70%;
+}
+
+.blurbImage img{
+     margin: 0 auto;
+     margin-left: 30px;
+     max-width: 80%;
+     vertical-align: middle;
+}
+
+.illustrationContainer {
+     position: absolute;
+     bottom: 0;
+     height: 400px;
+}
+
+.illustrationContainer img{
+     object-fit: fill;
+     max-height: 100%;
+     width: 100%;
+}
+
+.sectionRow {
+     height: 100%;
+     vertical-align: middle;
+     display: table-cell;
+}
+
+.section2Row {
+     height: 100%;
+     vertical-align: middle;
+     display: table-cell;
+   }
+
+   .about-info-container {
+     text-align: center;
+     /* display: inline-; */
+     vertical-align: middle;
+     height: 100%;
+     padding-bottom: 50px;
+     background-color: #ffffff;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+/* .blurbContainer p {
+    color: rgb(15, 43, 49);
+     padding-top: 40px;
+     margin: 0 auto;
+     font-size: 3vh;
+     letter-spacing: 3px;
+} */
+
+
+   .sectionButton:hover {
+     background-color:rgb(9, 47, 56);
+   }
+   
+   .teamMenu {
+        float: left;
+        height: 100%;
+        background-color: #5EBDD3;
+        width: 150px;
+        display: flexbox;
+        flex-direction: column;
+   }
+
+   .memberDisplay{
+
+   }
+
+   .teamTag {
+        text-align: center;
+        padding-bottom: 25px;
+   }
+
+   .teamTag img{
+     max-width: 150px;
+     min-width: 100px;
+     width: 70%;
+     cursor: pointer;
+   }
+
+   .stickyBottom {
+     position: relative;
+     bottom: 0;
+     height: 55px;
+     text-align: center;
+     padding-top: 40px;
+   }
+
+   .stickyBottom-button{
+     margin-top: 40px;
+     margin-bottom: 40px;
+}

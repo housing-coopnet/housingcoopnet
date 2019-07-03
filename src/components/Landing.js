@@ -6,8 +6,6 @@ import firebase from "../config/fbConfig"
 import ReactFullpage from '@fullpage/react-fullpage';
 const db = firebase.firestore()
 
-
-
 class Landing extends Component {
      constructor(props) {
           super(props)
@@ -53,7 +51,6 @@ class Landing extends Component {
                               emailInput.style.borderColor = "#3d3d3d";
                          } else {
                               alert("This email address is already on the list")
-
                          }
                     })
                } else {

@@ -1,0 +1,175 @@
+/*Div Attributes*/
+div.sticky {
+     position: -webkit-sticky;
+     position: sticky; top: 200px;
+     padding-left: 50px;
+   }
+ 
+
+ul, li{
+     list-style: none;
+     }
+     
+     .horizontalBar2 {
+          position: absolute;
+          height: 76px;
+          text-align: center;
+          display: block;
+          background-color: #5EBDD3;
+     }
+     
+     /* .horizontalBar2 h1 {
+          background-color: #5EBDD3;
+          display: block;
+          margin: 0 auto;
+          color: #f7f7f7;
+          letter-spacing: 5px;
+          font-size: 2vh;
+          padding-bottom: 9px;
+          padding-top: 5px;
+     } */
+     
+     .horizontalBar3 {
+          position: absolute;
+          bottom: 70px;
+          /* top: 20px; */
+          height: 160px;
+          text-align: center;
+          display:block;
+          background-color: #134E5B;
+     }
+     
+     /* .horizontalBar3 h1 {
+          display: inline;
+          margin: 0 auto;
+          color: #f7f7f7;
+          letter-spacing: 5px;
+          font-size: 20px;
+          padding-top: 5px;
+     } */
+     
+     /* .horizontalBar3 img {
+          display: inline;
+          max-width: 80px;
+          max-height: 100%;
+          margin: 40px;
+          vertical-align: middle;
+     } */
+     
+     .horizontalBar4 {
+          position: absolute;
+          bottom: 0;
+          /* top: 200px; */
+          height: 70px;
+          text-align: center;
+          display: block;
+          background-color: #5EBDD3;
+     }
+     /* .horizontalBar4 h1 {
+          margin: 0 auto;
+          color: #f7f7f7;
+          letter-spacing: 5px;
+          font-size: 2vh;
+          padding-top: 20px;
+          margin-bottom: 20px;
+          vertical-align: middle;
+     } */
+     
+     .horizontalBar4 button{
+       height: 70px;
+       width: 100%;
+       border-radius: 0;
+       border-style: none;
+       user-select: none;
+     }
+     
+     .horizontalBar4 button:hover{
+       background-color: #5EBDD3;
+     }
+     
+     
+     /* .overlapButton {
+          margin-top: -5px;
+          z-index: 10;
+          width: fit-content;
+          background-color: #134E5B;
+          border-style: none;
+          letter-spacing: 6px;
+          top: 38px;
+        }
+     
+     .overlapButton:hover {
+          background-color:rgb(9, 47, 56);
+          user-select: none;
+     }
+     
+     .overlapButton:active {
+          background-color:rgb(9, 47, 56);
+          user-select: none;
+     }  */
+     
+     .blurbContainer {
+          text-align: center;
+          /* display: inline-; */
+          vertical-align: middle;
+          height: 100%;
+          padding-bottom: 50px;
+     }
+     
+     .jumbo{
+          margin: 0 auto;
+          max-width: 70%;
+     }
+     
+     .jumbo img{
+       margin: 0 auto;
+       margin-left: 30px;
+       max-width: 80%;
+     }
+     
+     .section2Row {
+       height: 100%;
+       vertical-align: middle;
+       display: table-cell;
+     }
+     
+     .badgeRow.row{
+       padding-top: 20px;
+       vertical-align: middle;
+       align-items: center;
+     }
+     
+     .badgeRow img{
+       margin: 25px;
+       /* margin-top: 25px; */
+       /* width: 20%; */
+       max-width: 60px;
+       width: 80%;
+     }
+     
+     /* .badgeRow h1{
+       height: 100%;
+       font-size: 2.5vw;
+       letter-spacing: 3px;
+       font-weight: 700;
+     } */
+     
+     /* .sectionButton {
+       display: block;
+       z-index: 10;
+       width: fit-content;
+       background-color: #134E5B;
+       border-style: none;
+       margin: 0 auto;
+       align-self: center;
+       letter-spacing: 6px;
+       margin-top: 30px;
+       font-size: 3vw;
+       padding-left: 20px;
+       padding-right: 20px;
+     }
+     
+     .sectionButton:hover {
+       background-color:rgb(9, 47, 56);
+     }
+      */

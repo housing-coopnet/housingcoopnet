@@ -1,0 +1,226 @@
+{
+     "team" : [
+          {
+               "key" : 1,
+               "name" : "Aaron Scherf",
+               "url" : "aaron",
+               "emojis": "",
+               "role" : "Finance and Operations",
+               "image": "aaron.jpeg",
+               "education": [
+                    {
+                         "school" : "UC Berkeley",
+                         "degree" : "Master of Development Practice",
+                         "grad" : "2020",
+                         "info" : "Concentrations in Information Communications Technology, Geographic Information Systems, and Data Science"
+                    },
+                    {
+                         "school" : "Universität Heidelberg",
+                         "degree" : "Fulbright Research Scholar",
+                         "grad" : "2018",
+                         "info" : "Coursework in Economics, Machine Learning, Remote Sensing, Migration Policy, and German Language"
+                    },
+                    {
+                         "school" : "Mercer University",
+                         "degree" : "Bachelor of Business Administration",
+                         "grad" : "2017",
+                         "info" : "Majors in International Business, Finance, and Economics Minors in Management and Global Development Studies"
+                    }
+               ],
+               "work": [
+                    {
+                         "employer" : "US Agency for International Development",
+                         "role" : "Summer Fellow"
+                    },
+                    {
+                         "employer" : "US House of Representatives",
+                         "role" : "Policy Research Intern"
+                    },
+                    {
+                         "employer" : "Centre for European Economic Research",
+                         "role" : "Research Fellow"
+                    },
+                    {
+                         "employer" : "LandLink Property Analytics",
+                         "role" : "Founder"
+                    },
+                    {
+                         "employer" : "Historic Macon Foundation",
+                         "role" : "Investment Impact Analyst"
+                    },
+                    {
+                         "employer" : "NewTown Macon",
+                         "role" : "Urban Development Researcher"
+                    }
+               ],
+               "description": "Aaron believes in the power of technology and information to unify people and change the world. His passion for housing began in Cape Town, South Africa, where he developed data solutions for a microfinance organization which helped local residents of townships protect and improve their homes. Since then he has worked to support a variety of non-profit organizations and local governments on issues of affordable housing, historic preservation, and migrant rights. Aaron has also served as a researcher in the US House of Representatives, the Centre for European Economic Research, and LandLink Analytic Services--a company he founded during his undergraduate studies at Mercer University. After graduation from UC Berkeley, Aaron plans to begin a career as a Foreign Service Officer with USAID. When he isn’t teaching data science at Cal or drafting a new financial analysis model, Aaron enjoys reading sci-fi paperbacks with a triple shot of espresso.",
+               "link" : "https://www.linkedin.com/in/aaron-scherf-60504873/"
+          },
+          {
+               "key" : 2,
+               "name" : "Ramsay Boly",
+               "url" : "ramsay",
+               "emojis": "",
+               "role" : "Partnerships and Community Development",
+               "image": "ramsay.jpeg",
+               "education": [
+                    {
+                         "school" : "UC Berkeley",
+                         "degree" : "Master of Development Practice",
+                         "grad" : "2020",
+                         "info" : "Concentration in Information Communications Technology"
+                    },
+                    {
+                         "school" : "George Mason University",
+                         "degree" : "Bachelor of Conflict Analysis and Resolution",
+                         "grad" : "2015",
+                         "info" : "Minor in Nonprofit Studies"
+                    }
+               ],
+               "work": [
+                    {
+                         "employer" : "Neighborhood Association in DC",
+                         "role" : ""
+                    },
+                    {
+                         "employer" : "The Trade Foundation - Blockhain Based Ethical Supply Chains Startup",
+                         "role" : "Co-Founder"
+                    },
+                    {
+                         "employer" : "Berkeley Student Cooperatives",
+                         "role" : "Conduct Committee Chair"
+                    }
+               ],
+               "description": "Ramsay believes that social capital is a community’s most valuable resource for development and sustainability. He’s an advocate for mobilizing communities and restorative justice practices and Ramsay believes that breaking cycles of violence which define our cities requires collaboration across sectors. Ramsay’s interest in conflict resolution began in his home of Burkina Faso whose current geopolitical situation has largely been influenced by a regional history of conflict and colonialism. Ramsay’s diverse experiences include working for the Neighborhood Associates Corporation in Washington DC, seven months practicing Qi Gong meditation in Taiwan, and helping to co-found a startup which utilized blockchain technology to ensure traceability of minerals in ethical supply chains. Since starting his graduate education at UC Berkeley, Ramsay has become an active leader in the Berkeley Student Cooperative, where he is currently living in the Afro House. Ramsay loves playing and coaching soccer which he calls the ‘universal language’ that he’s used to connect with people across the globe.",
+               "link" : "https://www.linkedin.com/in/ramsay-boly-637b82100/"
+          },
+          {
+               "key" : 3,
+               "name" : "Jinsu Elhance",
+               "url" : "jinsu",
+               "emojis": "",
+               "role" : "Full-Stack Development",
+               "image": "jinsu.jpeg",
+               "education": [
+                    {
+                         "school" : "UC Berkeley",
+                         "degree" : "Bachelor of Arts",
+                         "grad" : "2021",
+                         "info" : "Majoring in Cognitive Science and Data Science with an emphasis on Social Welfare, Health and Poverty."
+                    }
+               ],
+               "work": [
+                    {
+                         "employer" : "MercyCorps",
+                         "role" : "Software Intern"
+                    },
+                    {
+                         "employer" : "UC Berkeley Boalt School of Law",
+                         "role" : "Machine Learning and Regulation Research Assistent"
+                    },
+                    {
+                         "employer" : "Berkeley Codeology",
+                         "role" : "Vice President"
+                    },
+                    {
+                         "employer" : "ArcSource Consulting",
+                         "role" : "Development Intern"
+                    }
+               ],
+               "description": "Jinsu believes that democratizing technology can empower grassroots development around the world. His passion for computing and web development has been shaped by his experiences growing up in Kenya and Wales and eventually learning how to code in the Bay Area. Beyond his studies at Cal, Jinsu has worked as a software intern for MercyCorps and served as Vice President at Codeology, a student organization dedicated to fostering mentorship and self-exploration among computer scientists. When he isn’t building out a new web layout, Jinsu is out shooting landscapes or dreaming of “tiny homes”.",
+               "link" : "https://www.linkedin.com/in/jinsue"
+          },
+          {
+               "key" : 4,
+               "name" : "Cara Wolfe",
+               "url" : "cara",
+               "emojis": "",
+               "role" : "Full-Stack Development",
+               "image": "cara.jpeg",
+               "education": [
+                    {
+                         "school" : "UC Berkeley",
+                         "degree" : "Bachelor of Arts",
+                         "grad" : "2021",
+                         "info" : "Majoring in Computer Science."
+                    }
+               ],
+               "work": [
+                    {
+                         "employer" : "IBM Texas",
+                         "role" : "Software Developer Intern "
+                    },
+                    {
+                         "employer" : "Engineering for Kids",
+                         "role" : "President "
+                    },
+                    {
+                         "employer" : "Association of Women in Electrical Engineering & CS",
+                         "role" : "Vice President"
+                    },
+                    {
+                         "employer" : "CS KickStart",
+                         "role" : "Lead Organizer"
+                    }
+               ],
+               "description": "Cara is passionate about combining technology with community based work. She is interested in developing technologies with a social conscience and further exploring the societal implications of technology. At UC Berkeley, she is serving in several leadership positions in computer science and STEM education student organizations as the President of Engineering for Kids, the Mentorship Coordinator for the Association of Women in Electrical Engineering & Computer Science, and the Lead Organizer of CS KickStart. When she isn’t coding or planning club events, Cara enjoys exploring “hidden places” in the Bay Area.",
+               "link" : "https://www.linkedin.com/in/carawolfe/"
+          },
+          {
+               "key" : 5,
+               "name" : "Rohil Verma",
+               "url" : "rohil",
+               "emojis": "",
+               "role" : "Marketing and Social Media",
+               "image": "rohil.jpg",
+               "education": [
+                    {
+                         "school" : "UC Berkeley",
+                         "degree" : "Bachelor of Science",
+                         "grad" : "2022",
+                         "info" : "Majoring in Computer Science, Data Science and Business"
+                    }
+               ],
+               "work": [
+                    {
+                         "employer" : "Dr. Ami Bera's Election Campaign",
+                         "role" : "Intern"
+                    },
+                    {
+                         "employer" : "Cognitive Exchange - Speech and Debate Teaching in South Asia Nonprofit",
+                         "role" : "President "
+                    }
+               ],
+               "description": "",
+               "link" : "https://www.linkedin.com/in/rohil-verma-831208157/"
+          },
+          {
+               "key" : 6,
+               "name" : "Ariana Jessa",
+               "url" : "ariana",
+               "emojis": "",
+               "role" : "User and Policy Research",
+               "image": "ariana.jpg",
+               "education": [
+                    {
+                         "school" : "UC Berkeley",
+                         "degree" : "Bachelor of Science",
+                         "grad" : "2021",
+                         "info" : "Majoring in Business Administration and Environmental Economics and Policy"
+                    }
+               ],
+               "work": [
+                    {
+                         "employer" : "Learning Leaders in Shanghai",
+                         "role" : "Summer Fellow"
+                    },
+                    {
+                         "employer" : "Venture Strategy Solutions",
+                         "role" : "Project Manager "
+                    }
+               ],
+               "description": "",
+               "link" : "https://www.linkedin.com/in/ariana-jessa/"
+          }
+     ]
+}

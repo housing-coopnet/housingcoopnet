@@ -1,0 +1,31 @@
+
+.footer {
+     background-color: #B1B695;
+     color: #f7f7f7;
+     width: 100%;
+     font-family: 'Do Hyeon', sans-serif;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 0;
+   }
+   
+   .footerJumbo {
+     background-color: #B1B695;
+     color: #f7f7f7;
+     padding: 0;
+     padding-top: 50px
+   }
+   
+   .footerLinks {
+     list-style-type: none;
+     padding: 0;
+   }
+   .footerLinks a {
+     color: #f7f7f7;
+     text-decoration: none;
+   }
+   .footerLinks a:hover{
+     color: cornflowerblue;
+     text-decoration: none;
+   }
+   

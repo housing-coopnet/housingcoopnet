@@ -1,0 +1,112 @@
+* {
+     font-weight: 700;
+}
+
+.navBreaker {
+     width: 100%;
+   }
+   
+   .navBar {
+     position: fixed;
+     height: 74px;
+     width: 100%;
+     background-color: #3d3d3d;
+     z-index: 5;
+   }
+   
+   .navbar-light .navbar-nav .nav-link{font-family:  itc-avant-garde-gothic-pro; color: #f7f7f7; padding-top: 12px}
+   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {font-family:  itc-avant-garde-gothic-pro;      color: #e6e6e6;}
+   .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {font-family:  itc-avant-garde-gothic-pro;     color: #f7f7f7;}
+   
+   .navTitle {
+        color: #f7f7f7;
+        font-size: 20px;
+        font-family: itc-avant-garde-gothic-pro;
+        font-style: bold;
+        margin: 0;
+   }
+
+   .navTitle:hover {
+        text-decoration: none;
+   }
+   
+   .navButton {
+     /* hard-coded vertical align for nav buttons */
+     font-family: cubano;
+     margin: auto 0 auto 0;
+     padding-bottom: 7px;
+     letter-spacing: 6px;
+     padding-left: 30px;
+     padding-right: 30px;
+     background-color: #3d3d3d;
+     border-style: none;
+     color: #f7f7f7;
+     background-color: #3d3d3d
+   }
+   
+   .nav-link a{
+        font-family: cubano;
+        font-size: 16pt;
+        color: #f7f7f7;
+   }
+   
+   .navButton:hover {
+     background-color: #3d3d3d;
+   }
+   .dropdown-menu {
+        background-color: #3d3d3d;
+        border-color: #f7f7f7;
+        border-width: 3px;
+   }
+   
+   .dropdown-item {
+        background-color: #3d3d3d;
+        color: #f7f7f7;
+        border-style: none;
+   }
+   
+   .dropdown-item:hover {
+        background-color: #e6e6e6;
+   }
+   .dropdown-item:active {
+        background-color: #f7f7f7;
+        color: #3d3d3d;
+   }
+   
+   .dropdown-item a{
+        text-justify: distribute;
+   }
+   .navButton .nav-item .nav-link{
+     color: #f7f7f7;
+     font-size: 20px;
+     vertical-align: center;
+     max-height: 30px;
+   }
+   
+   .nav-link:hover {
+        text-decoration: none;
+   }
+
+   
+.mr-auto {
+     float: right;
+     letter-spacing: 3px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: 0;
+   }
+   
+   .homeNav {
+     float: left;
+     font-family: 'Do Hyeon', sans-serif;
+     letter-spacing: 3px;
+     vertical-align: middle;
+   }
+   
+   .headerCollapse {
+     float: right;
+   }
+   
+   .noUnderline:hover {
+     text-decoration: none;
+   }

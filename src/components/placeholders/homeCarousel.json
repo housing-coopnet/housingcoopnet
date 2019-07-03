@@ -1,0 +1,25 @@
+{
+     "slides" : [
+          {
+               "key": 1,
+               "header": "Slide 1",
+               "text": "Take an interest",
+               "button": "Sign up",
+               "image": "../images/carousel1.jpg"
+          },
+          {
+               "key": 2,
+               "header": "Slide 2",
+               "text": "Build a portfolio",
+               "button": "Invest",
+               "image": "../images/carousel2.jpg"
+          },
+          {
+               "key": 3,
+               "header": "Slide 3",
+               "text": "Look at our projects",
+               "button": "Explore",
+               "image": "../images/carousel3.jpg"
+          }
+     ]
+}

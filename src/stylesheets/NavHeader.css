@@ -64,9 +64,10 @@
         color: #f7f7f7;
         border-style: none;
    }
-   
+
    .dropdown-item:hover {
         background-color: #e6e6e6;
+        color: #3d3d3d;
    }
    .dropdown-item:active {
         background-color: #f7f7f7;
@@ -75,6 +76,12 @@
    
    .dropdown-item a{
         text-justify: distribute;
+        color: #ffffff
+   }
+
+   .dropdown-item:hover a {
+        color: #3d3d3d;
+        text-decoration: none;
    }
    .navButton .nav-item .nav-link{
      color: #f7f7f7;

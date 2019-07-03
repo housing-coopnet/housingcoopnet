@@ -29,9 +29,9 @@ export default class App extends Component {
           <Route path="/project" component={ProjectDashboard} /> */}
           <Route path="/mission" component={Mission} />
           <Route path="/vision" component={Vision} />
-                   <Route path="/team" component={Team} />
-                   <Route path="/model" component={Model} />
-                   <Route path="/history" component={History} />
+          <Route path="/team" component={Team} />
+          <Route path="/model" component={Model} />
+          <Route path="/history" component={History} />
         </div>
       </Router>
     );

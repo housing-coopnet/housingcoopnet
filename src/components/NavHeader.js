@@ -25,13 +25,13 @@ class NavHeader extends Component {
                     <Navbar.Collapse className="headerCollapse" id="basic-navbar-nav">
                          <Nav className="mr-auto">
                               <NavDropdown className="navButton" title="ABOUT" id="basic-nav-dropdown">
-                                   <NavDropdown.Item href="/about">ABOUT US</NavDropdown.Item>
+                                   <NavDropdown.Item><NavLink to="/about">ABOUT US</NavLink></NavDropdown.Item>
                                    <NavDropdown.Divider />
-                                   <NavDropdown.Item href="/mission"> Mission</NavDropdown.Item>
-                                   <NavDropdown.Item href="/vision">Vision</NavDropdown.Item>
-                                   <NavDropdown.Item href="/model">Model</NavDropdown.Item>
-                                   <NavDropdown.Item href="/history">History</NavDropdown.Item>
-                                   <NavDropdown.Item href="/about#team">Team</NavDropdown.Item>
+                                   <NavDropdown.Item><NavLink to="/mission">MISSION</NavLink></NavDropdown.Item>
+                                   <NavDropdown.Item><NavLink to="/vision">VISION</NavLink></NavDropdown.Item>
+                                   <NavDropdown.Item><NavLink to="/model">MODEL</NavLink></NavDropdown.Item>
+                                   <NavDropdown.Item><NavLink to="/history">HISTORY</NavLink></NavDropdown.Item>
+                                   <NavDropdown.Item><NavLink to="/about#team">ABOUT US</NavLink></NavDropdown.Item>
                               </NavDropdown>
                          </Nav>
                          <Nav className="navButton">

@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.container-fluid {
+     padding-left: 0;
+     padding-right: 0;
+}
+
 p {
      font-family: itc-avant-garde-gothic-pro;
      font-weight: 300;
@@ -36,6 +41,16 @@ h3 {
 h4 {
   font-family: cubano-sharp;
   color: #828282;
+}
+
+h5 {
+     font-family: cubano-sharp;
+     color: #5b5757;
+}
+
+h6 {
+     font-family: cubano-sharp;
+     color: #3d3d3d;
 }
 
 a, p a {
@@ -82,6 +97,15 @@ p.white, h1.white, h2.white, h3.white, h4.white, a.white, em.white{
      font-size: 16pt;
   }
 
+  h5 {
+     font-size: 16pt;
+  }
+
+  h6 {
+     font-size: 12pt;
+     letter-spacing: 1px;
+  }
+
   a.cta {
        font-size: 16pt;
   }
@@ -117,6 +141,14 @@ h3 {
 
 h4 {
      font-size: 21pt;
+}
+
+h5 {
+     font-size: 18pt;
+}
+
+h6 {
+     font-size: 15pt;
 }
 
 a.cta {

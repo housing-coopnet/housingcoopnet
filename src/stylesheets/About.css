@@ -78,6 +78,8 @@
      height: 100%;
      vertical-align: middle;
      display: table-cell;
+     padding-left: 30px;
+     padding-right: 30px;
    }
 
    .about-info-container {
@@ -89,6 +91,7 @@
      background-color: #ffffff;
      padding-left: 20px;
      padding-right: 20px;
+     margin: auto 0;
 }
 
 /* .blurbContainer p {
@@ -124,7 +127,7 @@
 
    .teamTag img{
      max-width: 150px;
-     min-width: 100px;
+     min-width: 70px;
      width: 70%;
      cursor: pointer;
    }

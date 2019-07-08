@@ -19,8 +19,8 @@ const TeamTag = (props) => {
                }>
                     <Image roundedCircle fluid src={require('../images/' + person.image)} />
                </Link>
-               <h5>{person.name}</h5>
-               <h6>{person.role}</h6>
+               <h6>{person.name}</h6>
+               <p style={{fontSize: "12px"}}>{person.role}</p>
           </Col>
      )
      );
@@ -96,7 +96,7 @@ class About extends Component {
 
                                         {/* OUR TEAM */}
                                         <Container id="team" fluid className="section">
-                                             <Row>
+                                             <Row style={{paddingLeft: "20px", paddingRight:"20px"}}>
                                                   <TeamTag team={teamJson.team} />
                                              </Row>
                                         </Container>

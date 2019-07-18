@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import { Button, Container, Form } from 'react-bootstrap'
 import Modal from 'react-awesome-modal'
 import '../stylesheets/Modal.css'
-import firebase from "../config/fbConfig"
+import * as firebase from "firebase-admin";
+import * as functions from "firebase-functions";
 import ReactFullpage from '@fullpage/react-fullpage';
 import ModalHeader from 'react-bootstrap/ModalHeader';
+
+firebase.initializeApp()
 const db = firebase.firestore()
 
 export default class NewsletterModal extends Component {

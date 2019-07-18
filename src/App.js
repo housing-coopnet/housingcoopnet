@@ -14,7 +14,7 @@ import History from './components/History';
 export default class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <div>
                    <Route path="/" exact component={Home} />
                    <Route path="/?" component={Home} />
@@ -37,7 +37,7 @@ export default class App extends Component {
                    <Route path="/history" component={History} />
                    <Route path="/history?" component={History} />
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }

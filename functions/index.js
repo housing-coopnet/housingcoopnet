@@ -8,21 +8,10 @@ const SENDGRID_API_KEY = functions.config().sendgrid.key
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(SENDGRID_API_KEY)
 
-exports.firestoreEmail = functions.firestore
-     .document('userData/{userId}')
-     .onCreate(event => {
-
-          const userId = event.id;
-
-          const db = admin.firestore()
-
-          return db.collection('userData').doc(userId)
-               .get()
-               .then(doc => {
-               
-                    const user = doc.data()
-                    
-                    console.log("Sending email to " + user.first_name + " at " + user.email)
+exports.sendWelcomeEmail = functions.auth
+     .user()
+     .onCreate(user => {
+                    console.log("Sending email to " + user.displayName + " at " + user.email)
 
                     const msg = {
                          to: user.email,
@@ -43,15 +32,3 @@ exports.firestoreEmail = functions.firestore
                     return sgMail.send(msg)
 
                })
-          
-               .then(() => console.log('email sent!'))
-               .catch(err => console.log(err))
-          
-     });
-
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });

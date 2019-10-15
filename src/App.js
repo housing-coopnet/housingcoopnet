@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
+import Firebase, { FirebaseContext } from './components/Firebase/index'
 import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
 import Home from './components/Home';
-import About from './components/AboutNew';
-import Mission from './components/Mission';
-import Vision from './components/Vision';
-import Team from './components/Team';
-import Model from './components/Model';
-import History from './components/History';
+import About from './components/About/About';
+import Mission from './components/About/Mission';
+import Vision from './components/About/Vision';
+import Team from './components/About/Team';
+import Model from './components/About/Model';
+import History from './components/About/History';
+import CoopTalk from './components/CoopTalk/CoopTalk';
 
 export default class App extends Component {
   render() {
     return (
+      <FirebaseContext.Provider value={new Firebase()}>
       <Router>
         <div>
                    <Route path="/" exact component={Home} />
@@ -36,8 +39,14 @@ export default class App extends Component {
 
                    <Route path="/history" component={History} />
                    <Route path="/history?" component={History} />
+            
+                   <Route path="/cooptalk" component={CoopTalk} />
+                   <Route path="/cooptalk?" component={CoopTalk} />
+
+
         </div>
-      </Router>
+        </Router>
+        </FirebaseContext.Provider>
     );
   }
 }

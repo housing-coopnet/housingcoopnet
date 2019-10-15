@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../stylesheets/App.css';
-import '../stylesheets/About.css'
-import { Container, Col, Row, Image, Button } from 'react-bootstrap';
-import NavHeader from "../components/NavHeader.js"
-import NewsletterModal from "./NewsletterModal"
+import '../../stylesheets/App.css';
+import '../../stylesheets/About.css'
+import { Container, Col, Row, Button } from 'react-bootstrap';
+import NavHeader from "../NavHeader.js"
+import NewsletterModal from "../Authentication/NewsletterModal"
 const Link = require("react-router-dom").Link;
 
 class Mission extends Component {

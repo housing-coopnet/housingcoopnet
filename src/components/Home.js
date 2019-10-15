@@ -5,8 +5,9 @@ import '../stylesheets/Animations.css'
 import { Image, Container, Col, Row, Button } from 'react-bootstrap';
 import CarouselSlider from "./CarouselSlider.js"
 import NavHeader from "./NavHeader.js"
-import NewsletterModal from "./NewsletterModal"
+import AuthModal from "./AuthModal"
 import ReactFullpage from '@fullpage/react-fullpage';
+import { FirebaseContext } from './Firebase/index'
 
 var carouselJson = require("../components/placeholders/homeCarousel.json");
 const Link = require("react-router-dom").Link;
@@ -78,7 +79,9 @@ export default class Home extends Component {
 
                                              <Container  fluid className="horizontalBar4">
                                                   <Button className = 'bar hvr-rectangle-out' onClick={() => this.setState({ modalShow: true })} fluid> SIGN UP FOR OUR NEWSLETTER</Button>
-                                                  <NewsletterModal modalShow={this.state.modalShow} onClickAway={this.modalClose} />
+                                                  <FirebaseContext.Consumer >
+                                                       {firebase => <AuthModal modalShow={this.state.modalShow} signup={true} onClickAway={this.modalClose} firebase={firebase} />}
+                                                  </FirebaseContext.Consumer>
                                              </Container>
                                         </Container>
 

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import '../stylesheets/App.css';
-import '../stylesheets/About.css'
+import '../../stylesheets/App.css';
+import '../../stylesheets/About.css'
 import { Container, Col, Row, Image, Button } from 'react-bootstrap';
-import NavHeader from "../components/NavHeader.js"
+import NavHeader from "../NavHeader.js"
 import ReactFullpage from '@fullpage/react-fullpage';
-var teamJson = require("../components/placeholders/team.json");
+var teamJson = require("../placeholders/team.json");
 const Link = require("react-router-dom").Link;
 
 const TeamTag = (props) => {
@@ -17,7 +17,7 @@ const TeamTag = (props) => {
                     }
                }
                }>
-                    <Image roundedCircle fluid src={require('../images/' + person.image)} />
+                    <Image roundedCircle fluid src={require('../../images' + person.image)} />
                </Link>
                <h6>{person.name}</h6>
                <p style={{fontSize: "12px"}}>{person.role}</p>
@@ -27,10 +27,6 @@ const TeamTag = (props) => {
 }
 
 class About extends Component {
-     constructor(props) {
-          super(props)
-     }
-
      render() {
           return (
                <Container fluid>
@@ -52,7 +48,7 @@ class About extends Component {
                                                             </Link>
                                                        </Col>
                                                        <Col md className="jumbo">
-                                                            <Image rounded src={require('../images/problem.jpg')} />
+                                                            <Image rounded src={require('../../images/problem.jpg')} />
                                                        </Col>
                                                   </Row>
                                              </Container>
@@ -63,7 +59,7 @@ class About extends Component {
                                              <Container fluid style={{ height: "100%" }} className="section2Row">
                                                   <Row style={{ height: "100%" }}>
                                                        <Col sm={{ span: 12, order: 1 }} md={{ span: 6, order: 1 }} className="jumbo">
-                                                            <Image rounded src={require('../images/vision.jpg')} />
+                                                            <Image rounded src={require('../../images/vision.jpg')} />
                                                        </Col>
                                                        <Col sm={{ span: 12, order: 2 }} md={{ span: 5, order: 2 }} className="about-info-container">
                                                             <h2>Our Vision</h2>
@@ -88,7 +84,7 @@ class About extends Component {
                                                             </Link>
                                                        </Col>
                                                        <Col md className="jumbo">
-                                                            <Image rounded src={require('../images/introJumboImage.jpg')} />
+                                                            <Image rounded src={require('../../images/introJumboImage.jpg')} />
                                                        </Col>
                                                   </Row>
                                              </Container>
@@ -106,7 +102,7 @@ class About extends Component {
                                              <Container fluid style={{ height: "100%" }} className="section2Row">
                                                   <Row style={{ height: "100%" }}>
                                                        <Col sm={{ span: 12, order: 1 }} md={{ span: 6, order: 1 }} className="jumbo">
-                                                            <Image rounded src={require('../images/oa.jpg')} />
+                                                            <Image rounded src={require('../../images/oa.jpg')} />
                                                        </Col>
                                                        <Col sm={{ span: 12, order: 2 }} md={{ span: 5, order: 2 }} className="about-info-container">
                                                             <h2>Our Story</h2>

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import '../stylesheets/App.css';
 import { Form, Button, Nav, Tab, Row, Col, ListGroup, Pagination } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom'
-import Footer from "../components/Footer.js"
-import NavHeader from "../components/NavHeader.js"
+import Footer from "../Footer.js"
+import NavHeader from "../NavHeader.js"
 
 function SignupSidebar(props) {
   return (

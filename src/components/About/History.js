@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../stylesheets/App.css';
-import '../stylesheets/About.css'
-import { Container, Col, Row, Image, Button } from 'react-bootstrap';
-import NavHeader from "../components/NavHeader.js"
-import NewsletterModal from "./NewsletterModal"
+import '../../stylesheets/App.css';
+import '../../stylesheets/About.css'
+import { Container, Col, Row, Button } from 'react-bootstrap';
+import NavHeader from "../NavHeader.js"
+import NewsletterModal from "../Authentication/NewsletterModal"
 
 class History extends Component {
      constructor(props) {
@@ -34,7 +34,7 @@ class History extends Component {
                               </p>
                               <p>We started CoopNet as a group of friends in the fall of 2018 with the goal of creating a digital platform that could scale the crowdfunding of cooperative housing across the country. Our plan was to solve three challenges facing potential cooperatives: the difficulty of connecting with other coopers, the complexity of starting an organization, and the challenge of raising the first $100,000 in capital. We believe that anyone can come together to form a co-op, that existing cooperatives and their supporters can help guide a new generation, and that socially conscious neighbors can invest in preserving their own communities. All we want to do is build a platform and bring people together to make it happen.
                               </p>
-                              <iframe  width="320" height="220" src="https://www.youtube.com/embed/YbAypb8cTSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <iframe  title="introVideo" width="320" height="220" src="https://www.youtube.com/embed/YbAypb8cTSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                          </Col>
                     </Row>
                     <Container fluid className="stickyBottom">

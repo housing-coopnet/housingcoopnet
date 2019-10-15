@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { Button, Container, Form } from 'react-bootstrap'
 import Modal from 'react-awesome-modal'
-import '../stylesheets/Modal.css'
-import * as firebase from "firebase-admin";
-import * as functions from "firebase-functions";
-import ReactFullpage from '@fullpage/react-fullpage';
-import ModalHeader from 'react-bootstrap/ModalHeader';
+import '../../stylesheets/Modal.css'
 
-firebase.initializeApp()
-const db = firebase.firestore()
+const admin = require('firebase-admin')
+const serviceAccount = require('../../config/google-service-account.json');
+admin.initializeApp({
+     credential: admin.credential.cert(serviceAccount)
+})
+
+console.log(admin.apps.length)
+const db = admin.firestore()
 
 export default class NewsletterModal extends Component {
      constructor(props) {

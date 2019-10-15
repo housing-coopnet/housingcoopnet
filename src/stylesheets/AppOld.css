@@ -1,35 +1,15 @@
 @import url("https://p.typekit.net/p.css?s=1&k=xqs4alg&ht=tk&f=12560.12561.12562.12563.15488.15493.15494.15495.39347.39348.39349&a=15122170&app=typekit&e=css");
-.App {
-  text-align: center;
-}
-
-.row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-}
-
-.column {
-  -ms-flex: 20%; /* IE 10 */
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.page {
-  padding-top: 74px;
-   max-width: 1200px;
-   height: 100%;
-  }
 
 :root {
   --small: 0px;
   --medium: 640px;
   --large: 1024px;
 }
- 
+
+.App {
+  text-align: center;
+}
+
 .container-fluid {
      padding-left: 0;
      padding-right: 0;
@@ -254,8 +234,155 @@ div.sticky {
     padding-left: 50px;
   }
 
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.column {
+  -ms-flex: 20%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.tileContainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tileRow {
+  padding-bottom: 50px;
+}
+
+.projectProgress {
+  background-color: rgb(93, 154, 235);
+}
+
+.signupTabs{
+  padding-top: 90px;
+  padding-bottom: 300px;
+}
+
+.signupTab {
+  background-color: #3b3b3b;
+}
+
+.signupTabLink {
+  color: #f7f7f7;
+}
+.signupTab:hover{
+  color: #77D7F9;
+}
+
+/* .projectDashboard {
+  font-family: 'Do Hyeon', sans-serif;
+}
+.projectSummary {
+  padding-right: 100px;;
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: transparent;
+  text-align: left;
+  color: #3b3b3b;
+  padding-bottom: 10px;
+}
+
+.projectJumbo {
+  font-family: 'Do Hyeon', sans-serif;
+  background-color: transparent;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.projectTitle {
+font-family: 'Do Hyeon', sans-serif;
+letter-spacing: 8px;
+background-color: transparent;
+padding-bottom: 0px;
+text-align: center;
+position: -webkit-sticky;
+position: sticky;
+}
+ */
+
+/* .projectTitle p {
+  color: #3b3b3b;
+  letter-spacing: 3px;
+  }
+
+.headerCollapse a {
+  vertical-align: middle;
+}
+
+.projectSummary h1 {
+  padding-top: 40px;
+  letter-spacing: 6px;
+  color: #196d58;
+}
+
+.projectSummary h2 {
+  letter-spacing: 6px;
+}
+.projectSummary h3 {
+  letter-spacing: 6px;
+}
+.projectSummary p{
+  font-family: 'Courier New', Courier, monospace;
+} */
+.projectActions {
+  align-content: center;
+  line-height: 10px;
+}
+
+.actionButtons {
+  padding-top: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.actionButtons p {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+}
+
+.projectTabs {
+  align-content: center;
+  position: -webkit-sticky;
+}
+
+.projectTab {
+  letter-spacing: 3px;
+  background-color: #f8f8f1;
+}
+
+.projectContent {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f8f8f1;
+}
+
 .socialButtons {
   height: 40px;
+}
+
+ .row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0;
+
+}
+
+.column {
+  -ms-flex: 20%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
 }
 
 .jumbo{
@@ -267,4 +394,10 @@ div.sticky {
 margin: 0 auto;
 margin-left: 30px;
 max-width: 80%;
+}
+
+.page {
+padding-top: 74px;
+ max-width: 1200px;
+ height: 100%;
 }

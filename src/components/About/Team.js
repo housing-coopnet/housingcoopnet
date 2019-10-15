@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import '../stylesheets/App.css';
-import '../stylesheets/About.css'
+import '../../stylesheets/App.css';
+import '../../stylesheets/About.css'
 import { Container, Col, Row, Image, Button } from 'react-bootstrap';
-import NavHeader from "../components/NavHeader.js"
-import ReactFullpage from '@fullpage/react-fullpage';
-import NewsletterModal from "./NewsletterModal"
-var teamJson = require("../components/placeholders/team.json");
-const Link = require("react-router-dom").Link;
+import NavHeader from "../NavHeader.js"
 
 function Education(props) {
      return (
@@ -47,7 +43,7 @@ class Team extends Component {
                     <NavHeader />
                     <Row style={{ paddingTop: "100px" }}>
                          <Col md={{ span: 6, offset: 3 }}>
-                              <Image width="250px" height="250px" src={require("../images/" + this.state.person.image)} />
+                              <Image width="250px" height="250px" src={require("../../images/" + this.state.person.image)} />
                               <h1>{this.state.person.name}</h1>
                               <h2>{this.state.person.role}</h2>
                               <Button style={{marginBottom:"20px"}} href={this.state.person.link}>LinkedIn</Button>

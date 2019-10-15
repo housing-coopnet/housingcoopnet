@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "housing-coopnet"
+    "default": "housing-coopnet",
+    "coopnetsite": "housing-coopnet"
   }
 }
